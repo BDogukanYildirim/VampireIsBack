@@ -106,6 +106,7 @@ function gameLoop() {
         entity[0].possession =false;
         entity[1].x = 700;
         entity[1].y = 350;
+        entity[1].firstPossession =false;
         entity[1].possession =false;
         drawBackground();
         document.getElementById("tebrikler").style.visibility = 'visible';
