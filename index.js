@@ -7,7 +7,8 @@ const ctx = canvas.getContext('2d');
 var gameStart = false;
 canvas.width = 1200;
 canvas.height = 900;
-
+const player;
+const entity;
 
 
 const maps = new Maps(); 
@@ -46,8 +47,8 @@ function startGame(){
     gameStart = true;
     requestAnimationFrame(gameLoop);
     
-    const player = new Player(50, 800);
-    const entity = [new LiveEntity(350,750), new LiveEntity(700,350)];
+    player = new Player(50, 800);
+    entity = [new LiveEntity(350,750), new LiveEntity(700,350)];
 }
  
 // Ses kontrolü için toggle fonksiyonu
