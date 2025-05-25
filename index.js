@@ -40,6 +40,7 @@ function checkPossession(player, entity) {
 function startGame(){
     document.getElementById("startButton").style.visibility = 'hidden';
     document.getElementById("tebrikler").style.visibility = 'hidden';
+    document.getElementById("tebrikler").style.display = 'none';
     const backgroundAudio = document.getElementById("backgroundAudio");
     backgroundAudio.volume = 0.4;
     backgroundAudio.play();
