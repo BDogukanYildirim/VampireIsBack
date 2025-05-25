@@ -59,6 +59,9 @@ LyokoBlight - Bioweapon (İlham Kaynağı)
 ![Ana Menü](assets/gameplay_screenshot1.png)
 ![Vampir Bedeni Ele Geçiriyor](assets/gameplay_screenshot2.png)
 ![Ruh Formu](assets/gameplay_screenshot3.png)
+
+### 🎥 Oyun Tanıtım Videosu
+  
 ⚠️ Lisans ve Kullanım Şartları
 Kullanılan tüm içerikler ücretsizdir ancak genellikle kişisel kullanım içindir. 
 Ticari kullanımlar için içeriklerin kendi lisans koşulları kontrol edilmelidir. 
