@@ -141,5 +141,4 @@ if(!gameStart){
     requestAnimationFrame(drawBackground);
 }
 
-        document.getElementById("tebrikler").style.visibility = 'hidden';
 document.getElementById("startButton").addEventListener("click", startGame);// oyunu başlatan butonun event listener burada etkinleştiriliyor
