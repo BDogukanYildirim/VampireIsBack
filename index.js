@@ -63,6 +63,7 @@ function toggleAudio() {
 // Mute butonuna tıklanıldığında toggleAudio fonksiyonunun çalışması
 document.getElementById("muteButton").addEventListener("click", toggleAudio);
 function gameLoop() {
+    document.getElementById("tebrikler").style.visibility = 'hidden';
     // Arka planı çiz
     ctx.clearRect(0, 0, canvas.width, canvas.height);
     ctx.drawImage(backgroundImg, 0, 0, canvas.width, canvas.height);
