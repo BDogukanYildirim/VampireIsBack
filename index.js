@@ -7,8 +7,9 @@ const ctx = canvas.getContext('2d');
 var gameStart = false;
 canvas.width = 1200;
 canvas.height = 900;
-var player;
-var entity;
+    
+const player = new Player(50, 800);
+const entity = [new LiveEntity(350,750), new LiveEntity(700,350)];
 
 
 const maps = new Maps(); 
@@ -45,10 +46,6 @@ function startGame(){
     // Oyun başladığında müzik de başlar
     // Oyun döngüsünü başlat
     gameStart = true;
-    
-    
-    player = new Player(50, 800);
-    entity = [new LiveEntity(350,750), new LiveEntity(700,350)];
     requestAnimationFrame(gameLoop);
 }
  
@@ -99,8 +96,16 @@ function gameLoop() {
     }
     if(!gameStart){
         document.getElementById("startButton").style.visibility = 'visible';
-        player = null;
-        entity = null;
+        
+        player.x = 50;
+        player.y = 800;
+        player.setPossession();
+        entity[0].x = 350;
+        entity[0].y = 750;
+        entity[0].firstPossession =false;
+        entity[1].x = 700;
+        entity[1].y = 350;
+        entity[0].firstPossession =false;
         drawBackground();
         document.getElementById("tebrikler").style.visibility = 'visible';
         const backgroundAudio = document.getElementById("backgroundAudio");
