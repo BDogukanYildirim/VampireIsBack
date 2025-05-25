@@ -18,41 +18,58 @@ Tuş	İşlev
 ⬆️ ⬇️ ⬅️ ➡️	Hareket
 🖱️ Sol Tık	 Bedenden ayrıl/ Ruh haline dön
 
+
 🖼️ Kullanılan Assetler & Kaynaklar
+
 CraftPix.net Üzerinden:
+
 Free Exclusion Zone Tileset - Pixel Art
 
 → Karantina bölgesi zeminleri ve yıkık çevre objeleri
 →https://craftpix.net/freebies/free-exclusion-zone-tileset-pixel-art/
 
 Free Chibi Dark Oracle Character Sprites
+
 → Vampirin ruh formundaki görünümü için
 
 →https://craftpix.net/freebies/free-chibi-dark-oracle-character-sprites/
 
 Free Urban Zombie Sprite Sheet - Pixel Art Pack
+
 → Canlıların enfekte olduktan sonraki görünüşü
+
 →https://craftpix.net/freebies/free-urban-zombie-sprite-sheet-pixel-art-pack/
 
 Free Vampire Pixel Art Sprite Sheets
+
 → Vampirin orijinal formu
+
 →https://craftpix.net/freebies/free-vampire-pixel-art-sprite-sheets/
 
 Free Sky With Clouds Background - Pixel Art Set
+
 → Oyun içi gökyüzü ve arka plan katmanları
+
 →https://craftpix.net/freebies/free-sky-with-clouds-background-pixel-art-set/
 
 Free City Man Pixel Art Character Sprite Sheets
+
 →Oyun içerisindeki canlıların orjinal görünüşleri
+
 →https://craftpix.net/freebies/city-man-pixel-art-character-sprite-sheets/
 
 Diğer Kaynaklar:
+
 Pixabay Müzik ve Ses
+
 → Atmosferik arka plan müzikleri ve asiyon sesleri
+
 →https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=188986
 
 LyokoBlight - Bioweapon (İlham Kaynağı)
+
 → Stil, atmosfer ve ruh halinden ilham alınan referans proje
+
 →https://lyokoblight.itch.io/bioweapon
 
 
