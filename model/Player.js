@@ -128,19 +128,19 @@ export class Player {
 
             if (minDist === topDist) {
                 // Oyuncunun alt kenarı platformun üstüne temas etti
-                this.y = platform.y - half-10;
+                this.y = platform.y - half;
                 this.velocityY = 0;
                 this.isOnGround = true;
             } else if (minDist === bottomDist) {
                 // Oyuncunun üst kenarı platformun altına temas etti
-                this.y = platform.y + platform.height + half+10;
+                this.y = platform.y + platform.height + half;
                 this.velocityY = 0;
             } else if (minDist === leftDist) {
                 // Oyuncunun sağ kenarı platformun soluna temas etti
-                this.x = platform.x - reducedHalf- 10;
+                this.x = platform.x - reducedHalf-13;
             } else if (minDist === rightDist) {
                 // Oyuncunun sol kenarı platformun sağına temas etti
-                this.x = platform.x + platform.width + reducedHalf+ 10;
+                this.x = platform.x + platform.width + reducedHalf+ 13;
             }
             }
         }
