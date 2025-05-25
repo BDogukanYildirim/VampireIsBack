@@ -12,7 +12,7 @@ export class LiveEntity {
             this.normalAnimIndex = Math.floor(Math.random() * 3); // 0-2
         }
         if (this.possessionAnimIndex === undefined) {
-            this.possessionAnimIndex = Math.floor(Math.random() * 3); // 0-3
+            this.possessionAnimIndex = Math.floor(Math.random() * 4); // 0-3
         }
 
         // Basit animasyon objesi örneği (her entity için farklı tanımlayabilirsin)
@@ -37,7 +37,12 @@ export class LiveEntity {
             }
         ];
         this.possessionsAnim = [
-            
+            {
+            frames: './assets/entitesAssets/Possession_1/Idle.png',
+            frameCount: 6,
+            width: 768 / 6,
+            height: 128
+            },
             {
             frames: './assets/entitesAssets/Possession_2/Idle.png',
             frameCount: 6,
