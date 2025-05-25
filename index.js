@@ -103,9 +103,10 @@ function gameLoop() {
         entity[0].x = 350;
         entity[0].y = 750;
         entity[0].firstPossession =false;
+        entity[0].possession =false;
         entity[1].x = 700;
         entity[1].y = 350;
-        entity[0].firstPossession =false;
+        entity[0].possession =false;
         drawBackground();
         document.getElementById("tebrikler").style.visibility = 'visible';
         const backgroundAudio = document.getElementById("backgroundAudio");
