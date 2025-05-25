@@ -45,10 +45,11 @@ function startGame(){
     // Oyun başladığında müzik de başlar
     // Oyun döngüsünü başlat
     gameStart = true;
-    requestAnimationFrame(gameLoop);
+    
     
     player = new Player(50, 800);
     entity = [new LiveEntity(350,750), new LiveEntity(700,350)];
+    requestAnimationFrame(gameLoop);
 }
  
 // Ses kontrolü için toggle fonksiyonu
