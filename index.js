@@ -45,9 +45,10 @@ function startGame(){
     // Oyun döngüsünü başlat
     gameStart = true;
     requestAnimationFrame(gameLoop);
+    
+    const player = new Player(50, 800);
+    const entity = [new LiveEntity(350,750), new LiveEntity(700,350)];
 }
-const player = new Player(50, 800);
-const entity = [new LiveEntity(350,750), new LiveEntity(700,350)];
  
 // Ses kontrolü için toggle fonksiyonu
 function toggleAudio() {
@@ -96,6 +97,8 @@ function gameLoop() {
     }
     if(!gameStart){
         document.getElementById("startButton").style.visibility = 'visible';
+        player = null;
+        entity = null;
         drawBackground();
         document.getElementById("tebrikler").style.visibility = 'visible';
         const backgroundAudio = document.getElementById("backgroundAudio");
