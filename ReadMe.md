@@ -80,6 +80,8 @@ LyokoBlight - Bioweapon (İlham Kaynağı)
 ![Ruh Formu](assets/gameplay_screenshot3.png)
 
 ### 🎥 Oyun Tanıtım Videosu
+
+https://youtu.be/Zer58_hL0H4
   
 ⚠️ Lisans ve Kullanım Şartları
 Kullanılan tüm içerikler ücretsizdir ancak genellikle kişisel kullanım içindir. 
