@@ -128,12 +128,12 @@ export class Player {
 
             if (minDist === topDist) {
                 // Oyuncunun alt kenarı platformun üstüne temas etti
-                this.y = platform.y - half;
+                this.y = platform.y - half-10;
                 this.velocityY = 0;
                 this.isOnGround = true;
             } else if (minDist === bottomDist) {
                 // Oyuncunun üst kenarı platformun altına temas etti
-                this.y = platform.y + platform.height + half;
+                this.y = platform.y + platform.height + half+10;
                 this.velocityY = 0;
             } else if (minDist === leftDist) {
                 // Oyuncunun sağ kenarı platformun soluna temas etti
