@@ -67,12 +67,12 @@
     .social-icons a:hover {
       color: #09ff00;
     }
-    #tebrikler {
+    #bilgilendirme {
       position: absolute;
       z-index: 9999; /* en yüksek katman*/
       font-size: 40px;
-      top: 35%; /* ortanın üstünde */
-      left: 50%;
+      top: 50%; /* ortanın üstünde */
+      left: 10px;
       color: #00ff00;
       text-align: center;
       transform: translate(-50%, -50%);
@@ -92,9 +92,12 @@
 
   <button id="muteButton">&#128266;</button>
 
-  <div id="tebrikler">
-    <a>Tebrikler!</a>
-    <p>Tekrar oynamak için butona basınız.</p>
+  <div id="bilgilendirme">
+    <a>Oyun tuşları:</a>
+    <p>Ok tuşları ruh halinin hareketi</p>
+    <p>Yan ok tuşları ele geçirdiğin bedendeki ve orjinal halinin hareketi, space zıplama</p>
+    <p>Mouse sol tuşu ele geçirdikten sonra durum değişimi</p>
+    <p>Oynamak için butona basınız.</p>
   </div>
 
   <canvas id="gameCanvas" width="1200" height="900"></canvas>
