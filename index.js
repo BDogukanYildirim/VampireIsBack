@@ -39,8 +39,6 @@ function checkPossession(player, entity) {
 }
 function startGame(){
     document.getElementById("startButton").style.visibility = 'hidden';
-    document.getElementById("tebrikler").style.visibility = 'hidden';
-    document.getElementById("tebrikler").style.display = 'none';
     const backgroundAudio = document.getElementById("backgroundAudio");
     backgroundAudio.volume = 0.4;
     backgroundAudio.play();
@@ -64,7 +62,6 @@ function toggleAudio() {
 // Mute butonuna tıklanıldığında toggleAudio fonksiyonunun çalışması
 document.getElementById("muteButton").addEventListener("click", toggleAudio);
 function gameLoop() {
-    document.getElementById("tebrikler").style.visibility = 'hidden';
     // Arka planı çiz
     ctx.clearRect(0, 0, canvas.width, canvas.height);
     ctx.drawImage(backgroundImg, 0, 0, canvas.width, canvas.height);
@@ -111,7 +108,6 @@ function gameLoop() {
         entity[1].firstPossession = false;
         entity[1].possession = false;
         drawBackground();
-        document.getElementById("tebrikler").style.visibility = 'visible';
         const backgroundAudio = document.getElementById("backgroundAudio");
         backgroundAudio.pause();
         return;
