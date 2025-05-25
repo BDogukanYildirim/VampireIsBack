@@ -5,9 +5,9 @@ VampirIsBack, karanlık bir atmosferde geçen, ruhlar ve lanetli yaratıklarla d
 🧠 Oyun Mekanikleri
 Oyuncu, vampirin ruh hali ile oyuna başlar. Bu haliyle fiziksel dünyaya müdahale edemez ancak canlıları gözleyebilir.
 
-Mouse sol tık (1. kez): Vampir, seçilen bir insanın bedenini ele geçirir (possession) ve onun yaşam gücünü emer.
+Mouse sol tık (1. kez): Vampir, seçilen bir insanın bedenini ele geçirdiği bedenden ayrılır (possession) ve ayrılırken orjinel görünümüne geçmek için onun yaşam gücünü emer.
 
-Mouse sol tık (2. kez): Ele geçirdiği bedenden ayrılarak tekrar ruh formuna döner.
+Mouse sol tık (2. kez): Orjinal formundan sonra tekrar ve uçma yeteneği kazanır ruh formuna döner.
 
 Ruh halindeyken: Oyuncu tekrar fiziksel form kazanamaz, yeniden bir canlıyı ele geçirmesi gerekir. Ancak bunun için yeterli yaşam gücü olmalıdır.
 
