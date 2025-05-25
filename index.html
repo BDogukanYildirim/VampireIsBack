@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vampire is Back</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <!-- Font Awesome CDN (ikonlar için) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <style>
+    /* Canvas tam ekran ortalı */
+    body, html {
+      margin: 0; 
+      padding: 0; 
+      height: 100%; 
+      width: 100%;
+      display: flex; 
+      justify-content: center; 
+      align-items: center;
+      background: #23271f;
+    }
+
+    canvas {
+      background: #ffffff;
+      border: 1px solid #4c00ff;
+    }
+
+    #startButton {
+      position: absolute;
+      font-size: 70px;
+      top: 50%;
+      left: 50%;
+      background: none;
+      border: none;
+      transform: translate(-50%, -50%);
+    }
+
+    #muteButton {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      font-size: 70px;
+      background: none;
+      border: none;
+      padding: 0;
+      margin: 0;
+      cursor: pointer;
+    }
+
+    /* Sosyal medya ikonları köşede */
+    .social-icons {
+      position: fixed;
+      bottom: 40px;
+      right: 40px;
+      display: flex;
+      gap: 15px;
+    }
+
+    .social-icons a {
+      color: #00fff2;
+      font-size: 70px;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+
+    .social-icons a:hover {
+      color: #09ff00;
+    }
+    #tebrikler {
+      position: absolute;
+      z-index: 9999; /* en yüksek katman*/
+      font-size: 40px;
+      top: 35%; /* ortanın üstünde */
+      left: 50%;
+      color: #00ff00;
+      text-align: center;
+      transform: translate(-50%, -50%);
+      background: rgba(0, 0, 0, 0.7); /* okunurluk için background */
+      padding: 5px;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <button id="startButton">&#x25B6;&#xFE0F; </button>
+
+  <audio id="backgroundAudio" loop>
+    <source src="./assets/backGroundMusic.mp3" type="audio/mpeg">
+  </audio>
+
+  <button id="muteButton">&#128266;</button>
+
+  <div id="tebrikler">
+    <a>Tebrikler!</a>
+    <p>Tekrar oynamak için butona basınız.</p>
+  </div>
+
+  <canvas id="gameCanvas" width="1200" height="900"></canvas>
+
+  <!-- Sosyal medya ikonları -->
+  <div class="social-icons">
+    <a href="https://linkedin.com/in/bilaldoğukanyıldırım" target="_blank" aria-label="LinkedIn">
+      <i class="fab fa-linkedin"></i>
+    </a>
+    <a href="https://github.com/BDogukanYildirim" target="_blank" aria-label="GitHub">
+      <i class="fab fa-github"></i>
+    </a>
+    <a href="https://youtube.com/@yildirimZone" target="_blank" aria-label="YouTube">
+      <i class="fab fa-youtube"></i>
+    </a>
+  </div>
+
+  <!-- Modül giriş noktası -->
+  <script type="module" src="./index.js"></script>
+
+</body>
+</html>
