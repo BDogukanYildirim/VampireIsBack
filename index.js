@@ -97,17 +97,17 @@ function gameLoop() {
     if(!gameStart){
         document.getElementById("startButton").style.visibility = 'visible';
         
-        player.x = 50;
+        player.x = 50;//başa dödürüyorum tm değerleri
         player.y = 800;
         player.setPossession();
         entity[0].x = 350;
         entity[0].y = 750;
-        entity[0].firstPossession =false;
-        entity[0].possession =false;
+        entity[0].firstPossession = false;
+        entity[0].possession = false;
         entity[1].x = 700;
         entity[1].y = 350;
-        entity[1].firstPossession =false;
-        entity[1].possession =false;
+        entity[1].firstPossession = false;
+        entity[1].possession = false;
         drawBackground();
         document.getElementById("tebrikler").style.visibility = 'visible';
         const backgroundAudio = document.getElementById("backgroundAudio");
