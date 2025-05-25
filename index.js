@@ -7,8 +7,8 @@ const ctx = canvas.getContext('2d');
 var gameStart = false;
 canvas.width = 1200;
 canvas.height = 900;
-const player;
-const entity;
+var player;
+var entity;
 
 
 const maps = new Maps(); 
