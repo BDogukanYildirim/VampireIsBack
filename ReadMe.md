@@ -21,11 +21,13 @@ Tuş	İşlev
 🖼️ Kullanılan Assetler & Kaynaklar
 CraftPix.net Üzerinden:
 Free Exclusion Zone Tileset - Pixel Art
+
 → Karantina bölgesi zeminleri ve yıkık çevre objeleri
 →https://craftpix.net/freebies/free-exclusion-zone-tileset-pixel-art/
 
 Free Chibi Dark Oracle Character Sprites
 → Vampirin ruh formundaki görünümü için
+
 →https://craftpix.net/freebies/free-chibi-dark-oracle-character-sprites/
 
 Free Urban Zombie Sprite Sheet - Pixel Art Pack
